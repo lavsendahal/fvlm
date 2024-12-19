@@ -1,3 +1,5 @@
+# Large-scale and Fine-grained Vision-language Pre-training for Enhanced CT Image Understanding
+
 ## Data processing
 
 - Download the [CT-RATE](https://huggingface.co/datasets/ibrahimhamamci/CT-RATE) dataset into the data folder.
