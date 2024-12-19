@@ -1,4 +1,4 @@
-# Large-scale and Fine-grained Vision-language Pre-training for Enhanced CT Image Understanding
+# Fine-grained Vision-language Pre-training for Enhanced CT Image Understanding
 
 ## Data processing
 
