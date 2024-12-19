@@ -57,9 +57,14 @@ torchrun --nproc_per_node=4 train.py
 torchrun --nproc_per_node=4 eval.py
 ```
 
-Then, you can calculate the metrics using the generated csv file.
+Then, you can calculate the metrics using the generated CSV file.
 
 ```bash
 python calc_metrics.py --csv_file res/xxx.csv
 ```
 
+## Citation
+If you find this repository useful, please cite:
+
+- **Bootstrapping Chest CT Image Understanding by Distilling Knowledge from X-ray Expert Models (CVPR 2024)**  
+Weiwei Cao, Jianpeng Zhang, Yingda Xia, Tony CW Mok, Zi Li, Xianghua Ye, Le Lu, Jian Zheng, Yuxing Tang, Ling Zhang
