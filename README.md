@@ -68,9 +68,11 @@ If you find this repository useful, please cite:
 ```
 @inproceedings{fvlm_iclr25,
   title={Large-scale and fine-grained vision-language pre-training for enhanced CT image understanding},
-  author={Zhongyi Shui, Jianpeng Zhang, Weiwei Cao, Sinuo Wang, Ruizhe Guo, Le Lu, Tingbo Liang, Lin Yang, Xianghua Ye, Qi Zhang, Ling Zhang},
+  author={Zhongyi Shui, Jianpeng Zhang, Weiwei Cao, Sinuo Wang, Ruizhe Guo, Le Lu, Lin Yang, Xianghua Ye, Tingbo Liang, Qi Zhang, Ling Zhang},
   booktitle={The Thirteenth International Conference on Learning Representations},
   pages={},
   year={2025}
 }
 ```
+Zhongyi Shui1,3,4 Jianpeng Zhang1,3,5 ∗ Weiwei Cao1,3,5 Sinuo Wang1 Ruizhe Guo3,4
+Le Lu1 Lin Yang4 Xianghua Ye2 Tingbo Liang2 Qi Zhang2 Ling Zhang1
