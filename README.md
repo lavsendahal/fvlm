@@ -74,5 +74,3 @@ If you find this repository useful, please cite:
   year={2025}
 }
 ```
-Zhongyi Shui1,3,4 Jianpeng Zhang1,3,5 ∗ Weiwei Cao1,3,5 Sinuo Wang1 Ruizhe Guo3,4
-Le Lu1 Lin Yang4 Xianghua Ye2 Tingbo Liang2 Qi Zhang2 Ling Zhang1
