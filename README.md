@@ -65,6 +65,12 @@ python calc_metrics.py --csv_file res/xxx.csv
 
 ## Citation
 If you find this repository useful, please cite:
-
-- **Bootstrapping Chest CT Image Understanding by Distilling Knowledge from X-ray Expert Models (CVPR 2024)**  
-Weiwei Cao, Jianpeng Zhang, Yingda Xia, Tony CW Mok, Zi Li, Xianghua Ye, Le Lu, Jian Zheng, Yuxing Tang, Ling Zhang
+```
+@inproceedings{fvlm_iclr25,
+  title={Large-scale and fine-grained vision-language pre-training for enhanced CT image understanding (ICLR 2025)},
+  author={Zhongyi Shui, Jianpeng Zhang, Weiwei Cao, Sinuo Wang, Ruizhe Guo, Le Lu, Tingbo Liang, Lin Yang, Xianghua Ye, Qi Zhang, Ling Zhang},
+  booktitle={The Thirteenth International Conference on Learning Representations},
+  pages={},
+  year={2025}
+}
+```
