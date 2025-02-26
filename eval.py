@@ -148,7 +148,7 @@ class DataFolder(Dataset):
             ['lung', 'Pulmonary fibrotic sequela', 'Not Pulmonary fibrotic sequela.', 'Pulmonary fibrotic sequela.'],
             ['lung', 'Pleural effusion', 'Not Pleural effusion.', 'Pleural effusion.'],
             ['lung', 'Mosaic attenuation pattern', 'Not Mosaic attenuation pattern.', 'Mosaic attenuation pattern.'],
-            ['lung', 'Peribronchial thickening', 'Not Peribronchial thickening.', 'Peribronchial thickening.'],
+            ['lung', 'Peribronchial thickening', 'Peribronchial thickening is not present.', 'Peribronchial thickening is present.'],
             ['lung', 'Consolidation', 'Not Consolidation.', 'Consolidation.'],
             ['lung', 'Bronchiectasis', 'Not Bronchiectasis.', 'Bronchiectasis.'],
             ['lung', 'Interlobular septal thickening', 'Not Interlobular septal thickening.', 'Interlobular septal thickening.'],
