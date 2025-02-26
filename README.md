@@ -1,4 +1,5 @@
-# Fine-grained Vision-language Pre-training for Enhanced CT Image Understanding (ICLR 2025 Spotlight)
+# Fine-grained Vision-language Pre-training for Enhanced CT Image Understanding 
+ICLR 2025 Spotlight
 
 ## Data processing
 
