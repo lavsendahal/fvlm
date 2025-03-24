@@ -8,7 +8,7 @@
 
 - Download ImageNet pre-trained ViT weights from [link](https://dl.fbaipublicfiles.com/mae/pretrain/mae_pretrain_vit_base.pth), and BiomedVLP-CXR-BERT-specialized text encoder from [link](https://huggingface.co/microsoft/BiomedVLP-CXR-BERT-specialized), as used by CT-CLIP.
 
-- Download the decomposed anatomy-wise descriptions from our provided supplementary materials [link](https://openreview.net/forum?id=nYpPAT4L3D&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2025%2FConference%2FAuthors%23your-submissions)), and process the CT volume with the following commands.
+- Download the decomposed anatomy-wise descriptions from our provided supplementary materials [link](https://drive.google.com/drive/folders/10bz2UFxqxDPzl2P9NohESSNyBuld_Iek?usp=drive_link), and process the CT volume with the following commands.
 
   ```bash
   cd data
