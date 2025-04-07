@@ -51,6 +51,7 @@
 torchrun --nproc_per_node=4 train.py
 ```
 
+[Pre-trained weights](https://drive.google.com/drive/folders/15BnMo1lIAlOH_8KLdB2NugiHnmj9AWSD?usp=drive_link) of CT-RATE are released. 
 
 
 ## Evaluation

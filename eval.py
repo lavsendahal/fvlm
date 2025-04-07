@@ -145,7 +145,7 @@ class DataFolder(Dataset):
             ['lung', 'Atelectasis', 'Not Atelectatic.', 'Atelectatic.'], 
             ['lung', 'Lung nodule', 'Not Nodule.', 'Nodule.'],
             ['lung', 'Lung opacity', 'Not Opacity.', 'Opacity.'],
-            ['lung', 'Pulmonary fibrotic sequela', 'Not Pulmonary fibrotic sequela.', 'Pulmonary fibrotic sequela.'],
+            ['lung', 'Pulmonary fibrotic sequela', 'Not Pulmonary fibrotic.', 'Pulmonary fibrotic.'],
             ['lung', 'Pleural effusion', 'Not Pleural effusion.', 'Pleural effusion.'],
             ['lung', 'Mosaic attenuation pattern', 'Not Mosaic attenuation pattern.', 'Mosaic attenuation pattern.'],
             ['lung', 'Peribronchial thickening', 'Not Peribronchial thickening.', 'Peribronchial thickening.'],
@@ -263,7 +263,7 @@ def evaluate():
         sw_batch_size = 4
 
         overlap = 0.25
-        roi_size = (112, 256, 352)
+        roi_size = (112, 288, 352)
 
         results = []
         
