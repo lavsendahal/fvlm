@@ -42,7 +42,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--csv_file', type=str, default='')
 args = parser.parse_args()
 
-label_csv = pd.read_csv('data/multi_abnormality_labels/valid_predicted_labels.csv')
+label_csv = pd.read_csv('/scratch/railabs/ld258/projects/fvlm/multi_abnormality_labels/valid_predicted_labels.csv')
 
 result = pd.read_csv(args.csv_file)
 

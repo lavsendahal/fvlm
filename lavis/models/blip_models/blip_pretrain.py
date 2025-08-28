@@ -339,11 +339,15 @@ class BlipPretrain(BlipBase, SharedQueueMixin, MomentumDistilationMixin):
             qkv_bias=True
         )
         
+        # ckpt = torch.load(
+        #     '/storage/guoruizhe/cache/hub/datasets--ibrahimhamamci--CT-RATE/code/mae_pretrain_vit_base.pth',
+        #     map_location='cpu'
+        # )
+
         ckpt = torch.load(
-            '/storage/guoruizhe/cache/hub/datasets--ibrahimhamamci--CT-RATE/code/mae_pretrain_vit_base.pth',
+            '/scratch/railabs/ld258/projects/fvlm/mae_pretrain_vit_base.pth',
             map_location='cpu'
         )
-
         from collections import OrderedDict
         new_ckpt = OrderedDict()
         for key, value in ckpt['model'].items():

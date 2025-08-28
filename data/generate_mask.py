@@ -26,12 +26,12 @@ if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser(description="Training")
 
-    parser.add_argument("--split", required=False, default='train', type='str')
+    parser.add_argument("--split", required=False, default='train', type=str)
     args = parser.parse_args()
     
     split = args.split
     d = "validation" if split == "valid" else "train"
-    data_root = Path()
+    data_root = Path("/scratch/railabs/ld258/dataset/PUBLIC/CT_RATE/dataset/")
     metadata = pd.read_csv(os.path.join(data_root, f"metadata/{d}_metadata.csv"))
     rows = [row[1] for row in metadata.iterrows()]
     for row in rows:

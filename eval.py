@@ -121,7 +121,8 @@ class DataFolder(Dataset):
     def __init__(self):
         super().__init__()
 
-        vis_root = 'data/processed_valid_images'
+        # vis_root = 'data/processed_valid_images'
+        vis_root = '/scratch/railabs/ld258/projects/fvlm/processed_valid_images'
 
         img_paths = []
         for root, _, files in os.walk(vis_root):
@@ -243,8 +244,10 @@ def evaluate():
     for epoch in range(10, 20):
         print(f'Epoch: {epoch}')
 
-        ckpt_path = f'multi-modal-results/pretrain_ckpts/xxx/checkpoint_{epoch}.pth'
-        
+        # ckpt_path = f'multi-modal-results/pretrain_ckpts/xxx/checkpoint_{epoch}.pth'
+        ckpt_path = f'/scratch/railabs/ld258/projects/fvlm/checkpoints/model.pth'
+
+
         ckpt = torch.load(
             ckpt_path, map_location='cpu'
         )
@@ -343,7 +346,7 @@ def evaluate():
             pd.DataFrame(
                 results,
                 columns=['file_name'] + ['_'.join(k) for k in datafolder.test_items]
-            ).to_csv(f'rate_res/{save_path}.csv', index=False, encoding='utf-8')
+            ).to_csv(f'rate_res/epoch_{epoch}.csv', index=False, encoding='utf-8')
             
             print('Save csv file successfully!')
 

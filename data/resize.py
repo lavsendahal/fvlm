@@ -221,10 +221,12 @@ if "__main__" == __name__:
     import argparse
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--split", required=False, default='train', type='str')
+    parser.add_argument("--split", required=False, default='train', type=str)
     args = parser.parse_args()
     
     split = args.split
+
+
 
     image_root = f'{split}_fix'
     mask_root = f"{split}_mask"
